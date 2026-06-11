@@ -4,6 +4,46 @@
 
 ---
 
+## Getting Started & Local Setup
+
+This project is structured with separate `Client` (frontend) and `Server` (backend) directories.
+
+### Prerequisites
+- **Node.js** (v18.0.0 or higher)
+- **npm** (v9.0.0 or higher)
+
+### 1. Backend Server Setup
+1. Open a terminal and navigate to the `Server` directory:
+   ```bash
+   cd Server
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the backend development server:
+   - On Linux/macOS/Git Bash: `npm run dev`
+   - On Windows PowerShell (if execution policy is restricted): `npm.cmd run dev`
+
+*The backend server starts on `http://localhost:5000`.*
+
+### 2. Frontend Client Setup
+1. Open a new terminal and navigate to the `Client` directory:
+   ```bash
+   cd Client
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the frontend client dev server:
+   - On Linux/macOS/Git Bash: `npm run dev`
+   - On Windows PowerShell (if execution policy is restricted): `npm.cmd run dev`
+
+*The frontend application will open on `http://localhost:3000/`.*
+
+---
+
 ## 1. What was built and why?
 
 ### What was built
