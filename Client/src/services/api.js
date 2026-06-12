@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create base instance configured with Vite proxy
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://carpicker-ai.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
